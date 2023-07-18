@@ -1,14 +1,15 @@
-import './App.css'
+import './App.css';
+import { AppContext } from './context/contextAPI';
 
 function App() {
 
 
   return (
-    <>
+    <AppContext>
       <h1 className="text-3xl font-bold underline">
         Hello world!
       </h1>
-    </>
+    </AppContext>
   )
 }
 
